@@ -2,16 +2,16 @@
 public class Product1ToN {
 
 	public static void main(String[] args) {
-		int product =10;
-		int length=product;
-		int i=1;
 		
-		do {
-			product=product * i;
-			i++;
-		}while(i<length);
+		long sum = 1;
 		
-		System.out.println(product);
+		for (int i=0; i<13;i++) {
+			
+			sum = sum * (i +1);
+			
+		}
+		System.out.println(sum);
+
 	}
 
 }
